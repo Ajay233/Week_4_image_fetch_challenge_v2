@@ -1,0 +1,35 @@
+.gridRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  padding: 15px
+}
+
+.gridImage {
+  width: 18%;
+  padding: 1%;
+}
+
+.placeholder {
+  width: 100%;
+  font-family: arial;
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  border: 1px solid rgb(155, 100, 55);
+}
+
+.seacrhHeading {
+  width: 100%;
+  font-family: arial;
+  font-size: 30px;
+  text-align: left;
+}
+
+.searchTerm {
+  font-weight: bold;
+  text-decoration: underline;
+}

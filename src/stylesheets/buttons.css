@@ -1,0 +1,19 @@
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 64, 0);
+  border-radius: 35px;
+  color: rgb(255, 64, 0);
+  margin: 5px;
+  padding: 5px 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+  /* animation: buttonHover 1s linear; */
+}
+
+
+
+@keyframes buttonHover {
+  100% {transform: translateY(-5px);}
+}
